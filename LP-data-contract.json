@@ -1,4 +1,13 @@
-{
+1. get_core_membership_packages
+GET '/membership/packages'
+This endpoint wil be used to get the core memberships with packages to show Membership Landing Page.
+Membership Landing Page will fetch these from Package Service.
+
+Request Body: {
+  "sale_channel": "membership_landing_page",
+}
+
+Response:{
     "memberships": [
         {
             "key": "cars_vehicles",
@@ -180,3 +189,4 @@
         }
     ]
 }
+
