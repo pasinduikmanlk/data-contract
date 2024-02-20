@@ -1,0 +1,182 @@
+{
+    "memberships": [
+        {
+            "key": "cars_vehicles",
+            "name": "Vehicles",
+            "levels": [
+                {
+                    "key": "free",
+                    "name": "Free",
+                    "limit": {
+                        "key": 1,
+                        "label": "1"
+                    },
+                    "packages": []
+                },
+                {
+                    "key": "plus",
+                    "name": "Business Plus",
+                    "limit": {
+                        "key": 20,
+                        "label": "20"
+                    },
+                    "packages": [
+                        {
+                            "id": 20,
+                            "name": "Landing page car plus 30",
+                            "package_reference": 5365,
+                            "price": 500,
+                            "period": 30,
+                            "promotion_voucher_amount": 100,
+                            "status": true
+                        },
+                        {
+                            "id": 22,
+                            "name": "Landing page car plus 90",
+                            "package_reference": 5381,
+                            "price": 1000,
+                            "period": 90,
+                            "promotion_voucher_amount": 200,
+                            "status": true
+                        },
+                        {
+                            "id": 23,
+                            "name": "Landing page car plus 365",
+                            "package_reference": 5386,
+                            "price": 1500,
+                            "period": 365,
+                            "promotion_voucher_amount": 300,
+                            "status": true
+                        }
+                    ]
+                },
+                {
+                    "key": "premium",
+                    "name": "Business Premium",
+                    "limit": {
+                        "key": 200,
+                        "label": "200"
+                    },
+                    "packages": [
+                        {
+                            "id": 24,
+                            "name": "Landing page car premium 30",
+                            "package_reference": 5387,
+                            "price": 2000,
+                            "period": 30,
+                            "promotion_voucher_amount": 400,
+                            "status": true
+                        },
+                        {
+                            "id": 25,
+                            "name": "Landing page car premium 90",
+                            "package_reference": 5388,
+                            "price": 2500,
+                            "period": 90,
+                            "promotion_voucher_amount": 500,
+                            "status": true
+                        },
+                        {
+                            "id": 26,
+                            "name": "Landing page car premium 365",
+                            "package_reference": 5389,
+                            "price": 3000,
+                            "period": 365,
+                            "promotion_voucher_amount": 600,
+                            "status": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "electronics",
+            "name": "Electronics",
+            "levels": [
+                {
+                    "key": "free",
+                    "name": "Free",
+                    "limit": {
+                        "key": 2,
+                        "label": "2"
+                    },
+                    "packages": []
+                },
+                {
+                    "key": "plus",
+                    "name": "Business Plus",
+                    "limit": {
+                        "key": 30,
+                        "label": "30"
+                    },
+                    "packages": [
+                        {
+                            "id": 27,
+                            "name": "Landing page electronic plus 30",
+                            "package_reference": 5390,
+                            "price": 500,
+                            "period": 30,
+                            "promotion_voucher_amount": 100,
+                            "status": true
+                        },
+                        {
+                            "id": 28,
+                            "name": "Landing page electronic plus 90",
+                            "package_reference": 5391,
+                            "price": 1000,
+                            "period": 90,
+                            "promotion_voucher_amount": 200,
+                            "status": true
+                        },
+                        {
+                            "id": 29,
+                            "name": "Landing page electronic plus 365",
+                            "package_reference": 5392,
+                            "price": 1500,
+                            "period": 365,
+                            "promotion_voucher_amount": 300,
+                            "status": true
+                        }
+                    ]
+                },
+                {
+                    "key": "premium",
+                    "name": "Business Premium",
+                    "limit": {
+                        "key": 500,
+                        "label": "500"
+                    },
+                    "packages": [
+                        {
+                            "id": 30,
+                            "name": "Landing page electronic premium 30",
+                            "package_reference": 5393,
+                            "price": 2000,
+                            "period": 30,
+                            "promotion_voucher_amount": 400,
+                            "status": true
+                        },
+                        {
+                            "id": 31,
+                            "name": "Landing page electronic premium 90",
+                            "package_reference": 5394,
+                            "price": 2500,
+                            "period": 90,
+                            "promotion_voucher_amount": 500,
+                            "status": true
+                        },
+                        {
+                            "id": 32,
+                            "name": "Landing page electronic premium 365",
+                            "package_reference": 5395,
+                            "price": 3000,
+                            "period": 365,
+                            "promotion_voucher_amount": 600,
+                            "status": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
